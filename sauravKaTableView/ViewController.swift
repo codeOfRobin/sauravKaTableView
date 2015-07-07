@@ -34,9 +34,21 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell=tableView.dequeueReusableCellWithIdentifier("cell") as? customTableViewCell
+        var cell=tableView.dequeueReusableCellWithIdentifier("cell") as? customTableViewCell
+    
+        if(cell != nil)
+        {
+            cell=customTableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "cell", image: UIImage(named: "img")!, title: "sd", date: "sd", votes: 1)
+        }
         
+        cell!.dateLabel.text="Date"+String(indexPath.row)
+        cell!.titleLabel.text="title"+String(indexPath.row)
+        cell!.voteLabel.text=String(indexPath.row)
+        cell!.videoImageView.image=UIImage(named: "img")
         return cell!
+        
+
+
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

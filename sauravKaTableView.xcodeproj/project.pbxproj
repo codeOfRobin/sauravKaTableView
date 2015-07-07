@@ -13,6 +13,7 @@
 		4240E9D71B4C14D800F0785B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4240E9D61B4C14D800F0785B /* Assets.xcassets */; };
 		4240E9DA1B4C14D800F0785B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4240E9D81B4C14D800F0785B /* LaunchScreen.storyboard */; };
 		4240E9E21B4C17AD00F0785B /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4240E9E11B4C17AD00F0785B /* customTableViewCell.swift */; };
+		4240E9E41B4C462B00F0785B /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 4240E9E31B4C462B00F0785B /* img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4240E9D91B4C14D800F0785B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4240E9DB1B4C14D800F0785B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4240E9E11B4C17AD00F0785B /* customTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		4240E9E31B4C462B00F0785B /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		4240E9CE1B4C14D700F0785B /* sauravKaTableView */ = {
 			isa = PBXGroup;
 			children = (
+				4240E9E31B4C462B00F0785B /* img.png */,
 				4240E9CF1B4C14D800F0785B /* AppDelegate.swift */,
 				4240E9D11B4C14D800F0785B /* ViewController.swift */,
 				4240E9E11B4C17AD00F0785B /* customTableViewCell.swift */,
@@ -127,6 +130,7 @@
 				4240E9DA1B4C14D800F0785B /* LaunchScreen.storyboard in Resources */,
 				4240E9D71B4C14D800F0785B /* Assets.xcassets in Resources */,
 				4240E9D51B4C14D800F0785B /* Main.storyboard in Resources */,
+				4240E9E41B4C462B00F0785B /* img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				4240E9E01B4C14D800F0785B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
